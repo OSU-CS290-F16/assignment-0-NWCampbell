@@ -24,6 +24,9 @@
     </ol>
     </p>
 
+
+
+
 <h3>Campbnat Code Blog 2nd Entry</h3>
     <p>What challenges or troubles did you have completing this assignment. How did you solve them?    <ol>
       <li>CSS is an intuitive and challenging language, personally the biggest issue I had was making an element's position absolute to try and get the dismiss button at the top, but not making its ancestor relative so the button would always be absolute to the window not the sticky note.</li>
@@ -35,6 +38,9 @@
 	<li>I learned a lot about using position: relative, and position: absolute. I don't think I inherently knew ANYTHING at all about how to do this assignment before the CSS lectures. :hover will always be your best friend as far as :keyword pseudoclasses go!</li>
     </ol>
     </p>
+
+
+
 
 <h3>Campbnat Code Blog 3rd Entry</h3>
     <p>What challenges or troubles did you have completing this assignment. How did you solve them?
@@ -73,30 +79,29 @@
 	    <li>And of course my two instructors answers on Piazza, as well as the many student suggestions!!
     </ol>
     </p>
+
+
+
+
 <h3>Campbnat Code Blog 4th Entry</h3>
     <p>What challenges or troubles did you have completing this assignment. How did you solve them?
     <ol>
-	<li>Getting the code to read each file and utilize .js and .css files
-		<ul>
-		    <li>First attempts got it to fs.readFile, and it utilized the .js and .css files however it was reading and writing the files every time they were called
-		    <li>The solution? Multiple if statements as part of the handleRequest function! Of course AFTER reading the files once and just referencing the data.
-		</ul>
-	<li>The BIGGEST challenge by far was getting it to default to the index.html
-		<ul>
-		    <li>This was also handled with the if statements, referencing what the request length was allowed us to determine whether it should be an error, default or one of the specific files!
-		</ul>
+	<li> The first challenge that appeared was getting the original notes to appear in the first place. This took about 3 hours of playing around with the syntax in notes-page, but then I realized if we just make a userNotes = user.notes variable in the server.js and then reference that the notes won't appear as [object Object]s anymore on the site! Since it is actually getting passed the information.
+	<li> The second challenge was then to have all the classes apply to the notes, and to remove elements of the notes that weren't there. My good friend {{#if}} helped me out there, placing an if statement before each element (other than {{what}} of course) allowed it to ignore elements that weren't filled in!
     </ol>
     </p>
     <p>What did you learn from this assignment? What did you already know?
     <ol>
-	    <li>Most of it was learning node syntax from multiple examples of node found online.
+	    <li> I learned a little bit about templates, but really it just seems like putting a specific function in a file by itself. Still, very handy.
+	    <li> Working on the project I realized a couple things for the final, mainly to note that we're going to need a LOT of templates and a couple generate.js files to work with them....
     </ol>
     </p>
 
     <p>What resorces were most helpful?
     <ol>
-	    <li>Piazza wasn't that helpful this time because I think it was just a difficult assignment everyone needed help with, but remember Josh? He's like the best study partner there is.
+	    <li> Piazza had a couple helpful answers, but it wasn't as helpful for this assignment, as it seems as people go on in the term they either drop out or learn enough or get familiar enough with the tasks that they stop asking questions. I recommend making piazza a more required role in the next class.
+	    <li> Even if they don't take the class you're in, having a tech savvy friend is great to bounce your ideas off of. Sometimes you just REALLY need to hear yourself explain something to someone to get it to click, and others it is great when they start questioning your explanation telling you what doesn't make sense!
     </ol>
-</p>
+    </p>
   </body>
 </html>
